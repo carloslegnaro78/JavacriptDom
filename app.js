@@ -11,15 +11,15 @@ setTimeout(function () {
     //nameTag[0].innerText = 'Alterei...'
     //nameTag[1].innerText = 'Alterei o segundo...'
     //document.getElementsByName('div-name')[1].innerText ='Alterando o segundo'
-
     //console.log(document.getElementsByTagName('div')[0].innerHTML = '<h4> Mudando...</h4>')
 
-    var tagsName = document.getElementsByTagName('div')
-    tagsName[0].innerHTML = '<h4> Mudando 1...</h4>'
-    tagsName[1].innerHTML = '<h4> Mudando 2...</h4>'
+    //var tagsName = document.getElementsByTagName('div')
+    //tagsName[0].innerHTML = '<h4> Mudando 1...</h4>'
+    //tagsName[1].innerHTML = '<h4> Mudando 2...</h4>'
     
-    if(tagsName[2]){
-        tagsName[2].innerHTML = '<h4> Mudando 3...</h4>'
-    }
+    //if(tagsName[2]){
+    //    tagsName[2].innerHTML = '<h4> Mudando 3...</h4>'
+   // }
+   document.getElementsByClassName('test-class')[0].innerHTML = '<h5>Sou  o conteúdo através de um identificador por classe</h5>'
 
 }, 3000)
