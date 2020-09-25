@@ -20,6 +20,7 @@ setTimeout(function () {
     //if(tagsName[2]){
     //    tagsName[2].innerHTML = '<h4> Mudando 3...</h4>'
    // }
-   document.getElementsByClassName('test-class')[0].innerHTML = '<h5>Sou  o conteúdo através de um identificador por classe</h5>'
+   //document.getElementsByClassName('test-class')[0].innerHTML = '<h5>Sou  o conteúdo através de um identificador por classe</h5>'
+   //document.querySelector('div').innerHTML = '<strong>Algo Aqui Uhuuu</strong>'
 
 }, 3000)
